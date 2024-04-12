@@ -58,13 +58,13 @@ document.addEventListener("DOMContentLoaded", function(){
         
 
      const orderBtn = document.querySelector(".cardBtn") ;
-     
-
+    buttons.array.forEach(cardBtn => {
+    
      orderBtn.addEventListener("click", event => {
         event.target.style.backgroundColor = "yellow";
         event.target.textContent = "Done"
      })
-    
+    });
     
 
 
